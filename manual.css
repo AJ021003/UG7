@@ -1,0 +1,1290 @@
+body{
+    background-color: #bdc3c7;
+    font-family: 'monospace';
+    
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: #000428;
+    height: 55px;
+    width: 100%;
+  }
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    margin: 5px;
+    padding: 5px;
+    line-height: 60%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+a:hover{
+    background-image: linear-gradient(to right, #bdc3c7,#2c3e50,#000428);
+    color: white;
+}
+ul li.active a{
+    background-image: linear-gradient(to right, #bdc3c7,#2c3e50,#000428);
+    color: white;
+}
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    font-family: 'papyrus';
+    font-size: 50px;
+    font-weight: bold;
+    color: 000428;
+}
+.image{
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+img:hover {
+    transform: scaleX(-1);
+  }
+.menu a{
+ position: absolute;
+  left: -60px;
+  transition: 0.3s; 
+  padding: 8px;
+  margin: 10px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+.menu a:hover {
+    left: 0;
+  }
+
+.one {
+    top: 10%;
+    background-color: #000428;
+  }
+.two {
+    top: 17%;
+    background-color: #2c3e50;
+  }
+  .three {
+    top: 24%;
+    background-color: #000428;
+  }
+  .four {
+    top: 31%;
+    background-color: #2c3e50;
+  }
+  .five {
+    top: 38%;
+    background-color:#000428;
+  }  
+  .six {
+    top: 45%;
+    background-color: #2c3e50;
+  }
+  .seven {
+    top: 52%;
+    background-color: #000428;
+  }
+  .eight {
+    top: 59%;
+    background-color: #2c3e50;
+  }
+  .nine {
+    top: 66%;
+    background-color: #000428;
+  }
+  .ten {
+    top: 73%;
+    background-color: #2c3e50;
+  }
+  .eleven {
+    top: 80%;
+    background-color: #000428;
+  }
+  .twelve {
+    top: 89%;
+    background-color: #2c3e50;
+  }
+  .thirteen {
+    top: 96%;
+    background-color: #000428;
+  }
+  .fourteen {
+    top: 103%;
+    background-color: #2c3e50;
+  }
+  .fifteen {
+    top: 110%;
+    background-color: #000428;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #000428; 
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3e50; 
+}
+.v1{
+  position: absolute;
+  right: 19%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson1{
+  position: absolute;
+  bottom: 0%;
+  right: 25%;
+  width: 60%;
+  height: 90%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+h1,h2{
+  text-align: center;
+  font-family: 'papyrus';
+}
+p{
+  text-align: left;
+  font-size: 15px;
+}
+.v2{
+  position: absolute;
+  right: 1%;
+  bottom: 5%;
+  border-radius: 15px;
+}
+.lesson2{
+  position: absolute;
+  bottom: 0%;
+  right: 10%;
+  width: 80%;
+  height: 90%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.img1{
+  position: absolute;
+  left: 1%;
+  bottom: 5%;
+  height: 50%;
+  width: 40%;
+  border-radius: 15px;
+}
+.p2{
+  position: absolute;
+  top: 20%;   
+  text-align: left;
+  font-size: 20px;
+}
+.lesson3{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 100%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.img2{
+  position: absolute;
+  left: 15%;
+  top: 30%;
+  height: 10%;
+  border-radius: 15px;
+}
+.img21{
+  position: absolute;
+  left: 5%;
+  top: 55%;
+  height: 26%;
+  border-radius: 15px;
+}
+.v3{
+  position: absolute;
+  left: 25%;
+  bottom: 3%;
+  border-radius: 15px;
+}
+.p3{
+  position: absolute;  
+  text-align: left;
+  font-size: 20px;
+}
+.lesson4{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 280%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p41{
+  position: absolute;  
+  left: 2%;
+  top: 2%;
+  font-size: 20px;
+}
+.img41{
+  position: absolute;
+  left: 30%;
+  top: 4%;
+  border-radius: 15px;
+}
+.p42{
+  position: absolute;  
+  left: 2%;
+  top: 10%;
+  font-size: 20px;
+}
+.img43{
+  position: absolute;
+  left: 40%;
+  top: 12%;
+  border-radius: 15px;
+}
+.h21{
+  position: absolute;
+  top:  20%;
+  left: 2%;
+}
+.p43{
+  position: absolute;  
+  left: 2%;
+  top: 23%;
+  font-size: 20px;
+}
+.img44{
+  position: absolute;
+  left: 30%;
+  top: 26%;
+  border-radius: 15px;
+}
+.p44{
+  position: absolute;  
+  left: 2%;
+  top: 29%;
+  font-size: 20px;
+}
+.img45{
+  position: absolute;
+  left: 30%;
+  top: 31%;
+  border-radius: 15px;
+}
+.h22{
+  position: absolute;
+  top: 32%;
+  left: 2%;
+}
+.p45{
+  position: absolute;  
+  left: 2%;
+  top: 35%;
+  font-size: 20px;
+}
+.img46{
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  border-radius: 15px;
+}
+.p46{
+  position: absolute;  
+  left: 2%;
+  top: 55%;
+  font-size: 20px;
+}
+.img47{
+  position: absolute;
+  left: 30%;
+  top: 57%;
+  border-radius: 15px;
+}
+.p47{
+  position: absolute;  
+  left: 2%;
+  top: 61%;
+  font-size: 20px;
+}
+.img48{
+  position: absolute;
+  left: 25%;
+  top: 65%;
+  border-radius: 15px;
+}
+.p48{
+  position: absolute;  
+  left: 2%;
+  top: 75%;
+  font-size: 20px;
+}
+.h23{
+  position: absolute;
+  top: 38%;
+  left: 2%;
+}
+.v4{
+  position: absolute;
+  right: 20%;
+  top: 85%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson5{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 450%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p51{
+  position: absolute;  
+  left: 2%;
+  top: 3%;
+  font-size: 20px;
+}
+.img51{
+  position: absolute;
+  left: 2%;
+  top: 5%;
+  border-radius: 15px;
+}
+.p52{
+  position: absolute;  
+  left: 2%;
+  top: 14%;
+  font-size: 20px;
+}
+.img52{
+  position: absolute;
+  left: 2%;
+  top: 17%;
+  border-radius: 15px;
+}
+.p53{
+  position: absolute;  
+  left: 2%;
+  top: 24%;
+  font-size: 20px;
+}
+.h22{
+  position: absolute;
+  top:  30%;
+  left: 2%;
+}
+.p54{
+  position: absolute;  
+  left: 2%;
+  top: 31%;
+  font-size: 20px;
+}
+.img53{
+  position: absolute;
+  left: 2%;
+  top: 32%;
+  border-radius: 15px;
+}
+.p55{
+  position: absolute;  
+  left: 2%;
+  top: 45%;
+  font-size: 20px;
+}
+.img54{
+  position: absolute;
+  left: 2%;
+  top: 46%;
+  border-radius: 15px;
+}
+.h23{
+  position: absolute;
+  top:  60%;
+  left: 2%;
+}
+.p56{
+  position: absolute;  
+  left: 2%;
+  top: 62%;
+  font-size: 20px;
+}
+.img55{
+  position: absolute;
+  left: 2%;
+  top: 63%;
+  border-radius: 15px;
+}
+.p57{
+  position: absolute;  
+  left: 2%;
+  top: 65%;
+  font-size: 20px;
+}
+.img56{
+  position: absolute;
+  left: 2%;
+  top: 67%;
+  border-radius: 15px;
+}
+.p58{
+  position: absolute;  
+  left: 2%;
+  top: 77%;
+  font-size: 20px;
+}
+.img57{
+  position: absolute;
+  left: 2%;
+  top: 78%;
+  border-radius: 15px;
+}
+.p59{
+  position: absolute;  
+  left: 2%;
+  top: 86%;
+  font-size: 20px;
+}
+.v5{
+  position: absolute;
+  right: 20%;
+  top: 90%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson6{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 100%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p61{
+  position: absolute;  
+  left: 2%;
+  top: 15%;
+  font-size: 20px;
+}
+.img61{
+  position: absolute;
+  left: 2%;
+  top: 38%;
+  border-radius: 15px;
+}
+.v6{
+  position: absolute;
+  right: 20%;
+  top: 55%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson7{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 250%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p71{
+  position: absolute;  
+  left: 2%;
+  top: 7%;
+  font-size: 20px;
+}
+.img71{
+  position: absolute;
+  left: 2%;
+  top: 14%;
+  border-radius: 15px;
+}
+.p72{
+  position: absolute;  
+  left: 2%;
+  top: 39%;
+  font-size: 20px;
+}
+.img72{
+  position: absolute;
+  left: 2%;
+  top: 42%;
+  border-radius: 15px;
+}
+.p73{
+  position: absolute;  
+  left: 2%;
+  top: 68%;
+  font-size: 20px;
+}
+.v7{
+  position: absolute;
+  right: 20%;
+  top: 80%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson8{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 150%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p81{
+  position: absolute;  
+  left: 2%;
+  top: 7%;
+  font-size: 20px;
+}
+.img81{
+  position: absolute;
+  left: 2%;
+  top: 28%;
+  border-radius: 15px;
+}
+.p82{
+  position: absolute;  
+  left: 2%;
+  top: 35%;
+  font-size: 20px;
+}
+.img82{
+  position: absolute;
+  left: 2%;
+  top: 65%;
+  border-radius: 15px;
+}
+.p83{
+  position: absolute;  
+  left: 2%;
+  top: 70%;
+  font-size: 20px;
+}
+.v8{
+  position: absolute;
+  right: 2%;
+  top: 75%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson9{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 300%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p91{
+  position: absolute;  
+  left: 2%;
+  top: 5%;
+  font-size: 20px;
+}
+.img91{
+  border-radius: 15px;
+}
+.p92{
+
+  position: absolute;  
+  left: 2%;
+  top: 14%;
+  font-size: 20px;
+}
+.img92{
+  position: absolute;
+  left: 2%;
+  top: 21%;
+  border-radius: 15px;
+}
+.h91{
+  position: absolute;
+  top:  35%;
+  left: 2%;
+}
+.p93{
+  position: absolute;  
+  left: 2%;
+  top: 38%;
+  font-size: 20px;
+}
+.img93{
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  border-radius: 15px;
+}
+.p94{
+  position: absolute;  
+  left: 2%;
+  top: 53%;
+  font-size: 20px;
+}
+.img94{
+  position: absolute;
+  left: 2%;
+  top: 55%;
+  border-radius: 15px;
+}
+.p95{
+  position: absolute;  
+  left: 2%;
+  top: 60%;
+  font-size: 20px;
+}
+.v9{
+  position: absolute;
+  right: 2%;
+  top: 80%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson10{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 400%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.h210{
+  position: absolute;
+  top: 4%;
+  left: 2%;
+}
+.p101{
+  position: absolute;  
+  left: 2%;
+  top: 6%;
+  font-size: 20px;
+}
+.img101{
+  position: absolute;
+  left: 2%;
+  top: 14%;
+  border-radius: 15px;
+}
+.h2102{
+  position: absolute;
+  top: 22%;
+  left: 2%;
+}
+.p102{
+  position: absolute;  
+  left: 2%;
+  top: 24%;
+  font-size: 20px;
+}
+.img102{
+  position: absolute;
+  left: 2%;
+  top: 26%;
+  border-radius: 15px;
+}
+.p103{
+  position: absolute;  
+  left: 2%;
+  top: 28%;
+  font-size: 20px;
+}
+.img103{
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  border-radius: 15px;
+}
+.img104{
+  position: absolute;
+  left: 38%;
+  top: 35%;
+  border-radius: 15px;
+}
+.h2103{
+  position: absolute;
+  top: 43%;
+  left: 2%;
+}
+.p105{
+  position: absolute;  
+  left: 2%;
+  top: 45%;
+  font-size: 20px;
+}
+.img105{
+  position: absolute;
+  left: 2%;
+  top: 47%;
+  border-radius: 15px;
+}
+.img106{
+  position: absolute;
+  left: 38%;
+  top: 52%;
+  border-radius: 15px;
+}
+.p106{
+    position: absolute;  
+    left: 2%;
+    top: 58%;
+    font-size: 20px;
+}
+.h2104{
+  position: absolute;
+  top: 62%;
+  left: 2%;
+}
+.p107{
+  position: absolute;  
+    left: 2%;
+    top: 64%;
+    font-size: 20px;
+}
+.img107{
+  position: absolute;
+  left: 2%;
+  top: 66%;
+  border-radius: 15px;
+}
+.p108{
+  position: absolute;  
+    left: 2%;
+    top: 69%;
+    font-size: 20px;
+}
+.img108{
+  position: absolute;
+  left: 2%;
+  top: 71%;
+  border-radius: 15px;
+}
+.img109{
+  position: absolute;
+  left: 35%;
+  top: 76%;
+  border-radius: 15px;
+}
+.p109{
+  position: absolute;  
+    left: 2%;
+    top: 82%;
+    font-size: 20px;
+}
+.v10{
+  position: absolute;
+  right: 2%;
+  top: 89%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson15{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 200%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p151{
+  position: absolute;  
+    left: 2%;
+    top: 10%;
+    font-size: 20px;
+}
+.img151{
+  position: absolute;
+  left: 2%;
+  top: 30%;
+  border-radius: 15px;
+}
+.h2151{
+  position: absolute;
+  top: 35%;
+  left: 2%;
+}
+.p152{
+  position: absolute;  
+    left: 2%;
+    top: 40%;
+    font-size: 20px;
+}
+.img152{
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  border-radius: 15px;
+}
+.p153{
+  position: absolute;  
+    left: 2%;
+    top: 50%;
+    font-size: 20px;
+}
+.img153{
+  position: absolute;
+  left: 2%;
+  top:60%;
+  border-radius: 15px;
+}
+.p154{
+  position: absolute;  
+    left: 2%;
+    top: 72%;
+    font-size: 20px;
+}
+.v15{
+  position: absolute;
+  right: 2%;
+  top: 78%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson11{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 200%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p111{
+  position: absolute;  
+    left: 2%;
+    top: 5%;
+    font-size: 20px;
+}
+.img111{
+  position: absolute;
+  left: 2%;
+  top: 16%;
+  border-radius: 15px;
+}
+.img112{
+  position: absolute;
+  left: 40%;
+  top:  20%;
+  border-radius: 15px;
+}
+.p112{
+  position: absolute;  
+    left: 2%;
+    top: 38%;
+    font-size: 20px;
+}
+.h2111{
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+.p113{
+  position: absolute;  
+    left: 2%;
+    top: 43%;
+    font-size: 20px;
+}
+.img113{
+  position: absolute;
+  left: 2%;
+  top:  50%;
+  border-radius: 15px;
+}
+.img114{
+  position: absolute;
+  left: 40%;
+  top:  60%;
+  border-radius: 15px;
+}
+.p114{
+  position: absolute;  
+    left: 2%;
+    top: 75%;
+    font-size: 20px;
+}
+.v11{
+  position: absolute;
+  right: 2%;
+  top: 78%;
+  bottom: 1%;
+  border-radius: 20px;
+}
+.lesson12{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 300%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.h211{
+  position: absolute;
+  top: 5%;
+  left: 2%;
+}
+.p121{
+  position: absolute;  
+    left: 2%;
+    top: 9%;
+    font-size: 20px;
+}
+.img121{
+  position: absolute;
+  left: 2%;
+  top: 22%;
+  border-radius: 15px;
+}
+.img122{
+  position: absolute;
+  left: 49%;
+  top: 22%;
+  border-radius: 15px;
+}
+.p122{
+  position: absolute;  
+    left: 2%;
+    top: 40%;
+    font-size: 20px;
+}
+.img123{
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  border-radius: 15px;
+}
+.img124{
+  position: absolute;
+  left: 49%;
+  top: 45%;
+  border-radius: 15px;
+}
+.h212{
+  position: absolute;
+  top: 55%;
+  left: 2%;
+}
+.p123{
+  position: absolute;  
+    left: 2%;
+    top: 59%;
+    font-size: 20px;
+}
+.v12{
+  position: absolute;
+  right: 2%;
+  top: 84%;
+  border-radius: 20px;
+}
+.lesson13{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 400%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p131{
+  position: absolute;  
+  left: 2%;
+  top: 5%;
+  font-size: 20px;
+}
+.img131{
+  position: absolute;
+  left: 2%;
+  top: 8%;
+  border-radius: 15px;
+}
+.img132{
+  position: absolute;
+  left: 30%;
+  top: 8%;
+  border-radius: 15px;
+}
+.p132{
+  position: absolute;  
+  left: 2%;
+  top: 13%;
+  font-size: 20px;
+}
+.h2131{
+  position: absolute;
+  top: 16%;
+  left: 2%;
+}
+.p133{
+  position: absolute;  
+  left: 2%;
+  top: 19%;
+  font-size: 20px;
+}
+.img133{
+  position: absolute;
+  left: 2%;
+  top: 21%;
+  border-radius: 15px;
+}
+.img134{
+  position: absolute;
+  left: 2%;
+  top: 23%;
+  border-radius: 15px;
+}
+.p134{
+  position: absolute;  
+  left: 2%;
+  top: 27%;
+  font-size: 20px;
+}
+.img135{
+  position: absolute;
+  left: 2%;
+  top: 34%;
+  border-radius: 15px;
+}
+.img136{
+  position: absolute;
+  left: 41%;
+  top: 34%;
+  border-radius: 15px;
+}
+.h2132{
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+.p135{
+  position: absolute;  
+  left: 2%;
+  top: 42%;
+  font-size: 20px;
+}
+.img137{
+  position: absolute;
+  left: 2%;
+  top: 44%;
+  border-radius: 15px;
+}
+.p136{
+  position: absolute;  
+  left: 2%;
+  top: 54%;
+  font-size: 20px;
+}
+.img138{
+  position: absolute;
+  left: 2%;
+  top: 56%;
+  border-radius: 15px;
+}
+.img139{
+  position: absolute;
+  left: 49%;
+  top: 56%;
+  border-radius: 15px;
+}
+.p137{
+  position: absolute;  
+  left: 2%;
+  top: 63%;
+  font-size: 20px;
+}
+.img140{
+  position: absolute;
+  left: 2%;
+  top: 67%;
+  border-radius: 15px;
+}
+.img141{
+  position: absolute;
+  left: 49%;
+  top: 65%;
+  border-radius: 15px;
+}
+.p138{
+  position: absolute;  
+  left: 2%;
+  top: 73%;
+  font-size: 20px;
+}
+.v13{
+  position: absolute;
+  right: 2%;
+  top: 85%;
+  border-radius: 20px;
+}
+.lesson14{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 80%;
+  height: 350%;
+  padding: 0%;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+}
+.p1511{
+  position: absolute;  
+  left: 2%;
+  top: 5%;
+  font-size: 20px;
+}
+.h2151{
+  position: absolute;
+  top: 13%;
+  left: 2%;
+}
+.p1512{
+  position: absolute;  
+  left: 2%;
+  top: 15%;
+  font-size: 20px;
+}
+.img1511{
+  position: absolute;
+  left: 2%;
+  top: 21%;
+  border-radius: 15px;
+}
+.h2152{
+  position: absolute;
+  top: 32%;
+  left: 2%;
+}
+.p1513{
+  position: absolute;  
+  left: 2%;
+  top: 35%;
+  font-size: 20px;
+}
+.img1512{
+  position: absolute;
+  left: 2%;
+  top: 40%;
+  border-radius: 15px;
+}
+.h2153{
+  position: absolute;
+  top: 52%;
+  left: 2%;
+}
+.p1514{
+  position: absolute;  
+  left: 2%;
+  top: 55%;
+  font-size: 20px;
+}
+.img1513{
+  position: absolute;
+  left: 2%;
+  top: 62%;
+  border-radius: 15px;
+}
+.img1514{
+  position: absolute;
+  left: 49%;
+  top: 65%;
+  border-radius: 15px;
+}
+.p1515{
+  position: absolute;  
+  left: 2%;
+  top: 75%;
+  font-size: 20px;
+}
+.v14{
+  position: absolute;
+  right: 2%;
+  top: 85%;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
